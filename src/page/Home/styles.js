@@ -196,7 +196,7 @@ export const Button = styled.a`
 export const Icon = styled.img`
   width: 1.75rem;
   height: 1.75rem;
-  margin-left: 24%;
+  margin-left: 30%;
   margin-right: 10px;
   transition: 0.75s ease-in-out;
 

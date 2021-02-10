@@ -161,21 +161,23 @@ export const TitleSocialMedia = styled.h1`
   color: #f1f2f2;
   font-weight: 700;
   font-size: 1rem;
-  margin-right: 20%;
 `;
 
+export const ContainerButton = styled.div`
+    display: flex;
+    align-items: center;
+    height: 100%;
+`
+
 export const Button = styled.a`
-  display: flex;
   background-image: linear-gradient(to right, var(--purplePrimary), var(--bluePrimary));
   width: 14vw;
-  height: 14vh;
+  height:14vh;
   border-radius: 10px;
-  align-items: center;
   border: none;
   margin-top: 1.2rem;
   box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem var(--darkShadow);
   cursor: pointer;
-  padding: 0.65rem;
   transition: 0.75s ease-in-out;
   text-decoration: none;
 
@@ -183,7 +185,13 @@ export const Button = styled.a`
     width: 60vw;
     height: 10vh;
   }
-`;
+
+  @media(min-width: 700px){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.65rem;
+  }`;
 
 export const Icon = styled.img`
   width: 1.75rem;
@@ -192,7 +200,7 @@ export const Icon = styled.img`
   margin-right: 10px;
   transition: 0.75s ease-in-out;
 
-  @media(max-width: 700px){
-    margin-left: 20%;
+  @media(min-width: 700px){
+    margin-left: 0;
   }
 `;

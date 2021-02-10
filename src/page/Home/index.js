@@ -38,20 +38,28 @@ function Home() {
 
           <S.ContainerSocialMedia>
             <S.Button href="https://www.linkedin.com/in/mafe-almeida/">
+            <S.ContainerButton>
               <S.Icon src={linkedInIcon} />
               <S.TitleSocialMedia>LinkedIn</S.TitleSocialMedia>
+              </S.ContainerButton>
             </S.Button>
             <S.Button href="https://github.com/mariaalm20">
+              <S.ContainerButton>
               <S.Icon src={githubIcon} />
               <S.TitleSocialMedia>GitHub</S.TitleSocialMedia>
+              </S.ContainerButton>
             </S.Button>
             <S.Button href="mailto:maria.almoliveira@gmail.com?subject=Olá">
+            <S.ContainerButton>
               <S.Icon src={gmailIcon} />
               <S.TitleSocialMedia>E-mail</S.TitleSocialMedia>
+              </S.ContainerButton>
             </S.Button>
             <S.Button href="https://www.instagram.com/mafe.dev/">
+            <S.ContainerButton>
               <S.Icon src={instaIcon} />
               <S.TitleSocialMedia>Instagram</S.TitleSocialMedia>
+              </S.ContainerButton>
             </S.Button>
           </S.ContainerSocialMedia>
         </S.ContainerLinks>

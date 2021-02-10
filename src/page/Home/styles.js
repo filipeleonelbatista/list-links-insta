@@ -163,7 +163,7 @@ export const TitleSocialMedia = styled.h1`
   font-size: 1rem;
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   display: flex;
   background-image: linear-gradient(to right, var(--purplePrimary), var(--bluePrimary));
   width: 14vw;
@@ -177,6 +177,7 @@ export const Button = styled.button`
   cursor: pointer;
   padding: 0.65rem;
   transition: 0.75s ease-in-out;
+  text-decoration: none;
 
   @media(max-width: 700px){
     width: 60vw;

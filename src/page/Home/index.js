@@ -36,19 +36,19 @@ function Home() {
           <S.Divider />
 
           <S.ContainerSocialMedia>
-            <S.Button>
+            <S.Button href="https://www.linkedin.com/in/mafe-almeida/">
               <S.Icon src={linkedInIcon} />
               <S.TitleSocialMedia>LinkedIn</S.TitleSocialMedia>
             </S.Button>
-            <S.Button>
+            <S.Button href="mailto:maria.almoliveira@gmail.com?subject=Olá">
               <S.Icon src={githubIcon} />
               <S.TitleSocialMedia>GitHub</S.TitleSocialMedia>
             </S.Button>
-            <S.Button>
+            <S.Button href="https://mail.google.com/mail/u/1/#inbox?compose=new">
               <S.Icon src={gmailIcon} />
               <S.TitleSocialMedia>E-mail</S.TitleSocialMedia>
             </S.Button>
-            <S.Button>
+            <S.Button href="https://www.instagram.com/mafe.dev/">
               <S.Icon src={gmailIcon} />
               <S.TitleSocialMedia>Instagram</S.TitleSocialMedia>
             </S.Button>

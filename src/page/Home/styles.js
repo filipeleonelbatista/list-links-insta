@@ -161,6 +161,7 @@ export const TitleSocialMedia = styled.h1`
   color: #f1f2f2;
   font-weight: 700;
   font-size: 1rem;
+  margin-right: 20%;
 `;
 
 export const Button = styled.a`
@@ -170,7 +171,6 @@ export const Button = styled.a`
   height: 14vh;
   border-radius: 10px;
   align-items: center;
-  justify-content: center;
   border: none;
   margin-top: 1.2rem;
   box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem var(--darkShadow);
@@ -188,6 +188,11 @@ export const Button = styled.a`
 export const Icon = styled.img`
   width: 1.75rem;
   height: 1.75rem;
-  margin-right: 0.8rem;
+  margin-left: 24%;
+  margin-right: 10px;
   transition: 0.75s ease-in-out;
+
+  @media(max-width: 700px){
+    margin-left: 20%;
+  }
 `;

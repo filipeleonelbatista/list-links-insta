@@ -9,6 +9,7 @@ import profilePicture from "../../assets/pic.png";
 import githubIcon from "../../assets/GitHubIcon.png";
 import gmailIcon from "../../assets/GmailIcon.png";
 import linkedInIcon from "../../assets/linkedin-icon.png";
+import instaIcon from "../../assets/insta-icon.png";
 
 function Home() {
   const { switchTheme } = useContext(ThemeContext);
@@ -49,7 +50,7 @@ function Home() {
               <S.TitleSocialMedia>E-mail</S.TitleSocialMedia>
             </S.Button>
             <S.Button href="https://www.instagram.com/mafe.dev/">
-              <S.Icon src={gmailIcon} />
+              <S.Icon src={instaIcon} />
               <S.TitleSocialMedia>Instagram</S.TitleSocialMedia>
             </S.Button>
           </S.ContainerSocialMedia>

@@ -40,11 +40,11 @@ function Home() {
               <S.Icon src={linkedInIcon} />
               <S.TitleSocialMedia>LinkedIn</S.TitleSocialMedia>
             </S.Button>
-            <S.Button href="mailto:maria.almoliveira@gmail.com?subject=Olá">
+            <S.Button href="https://github.com/mariaalm20">
               <S.Icon src={githubIcon} />
               <S.TitleSocialMedia>GitHub</S.TitleSocialMedia>
             </S.Button>
-            <S.Button href="https://mail.google.com/mail/u/1/#inbox?compose=new">
+            <S.Button href="mailto:maria.almoliveira@gmail.com?subject=Olá">
               <S.Icon src={gmailIcon} />
               <S.TitleSocialMedia>E-mail</S.TitleSocialMedia>
             </S.Button>

@@ -43,6 +43,12 @@ function Home() {
               <S.TitleSocialMedia>LinkedIn</S.TitleSocialMedia>
               </S.ContainerButton>
             </S.Button>
+            <S.Button href="https://github.com/mariaalm20/cloneClubhouse">
+            <S.ContainerButton>
+              <S.Icon src={githubIcon} />
+              <S.TitleSocialMedia>Clubhouse Clone</S.TitleSocialMedia>
+              </S.ContainerButton>
+            </S.Button>
             <S.Button href="https://github.com/mariaalm20">
               <S.ContainerButton>
               <S.Icon src={githubIcon} />

@@ -1,12 +1,11 @@
-import React, { useContext, useState } from "react";
-
+import React, { useContext } from "react";
+import { FaEnvelope, FaGithub, FaGlobe, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
+import profilePicture from "../../assets/pic.png";
 import ThemeContext from "../../context/Theme";
 // import Switch from "../../Components/ToogleButton";
-
 import * as S from "./styles";
 
-import profilePicture from "../../assets/pic.png";
-import { FaInstagram, FaGithub, FaEnvelope, FaGlobe, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
+
 
 function Home() {
   const { switchTheme } = useContext(ThemeContext);

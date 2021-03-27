@@ -6,11 +6,7 @@ import Switch from "../../Components/ToogleButton";
 import * as S from "./styles";
 
 import profilePicture from "../../assets/pic.png";
-import GlobeIcon from "../../assets/globe.png";
-import githubIcon from "../../assets/GitHubIcon.png";
-import gmailIcon from "../../assets/GmailIcon.png";
-import linkedInIcon from "../../assets/linkedin-icon.png";
-import instaIcon from "../../assets/insta-icon.png";
+import { FaInstagram, FaGithub, FaEnvelope, FaGlobe, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
 
 function Home() {
   const { switchTheme } = useContext(ThemeContext);
@@ -21,12 +17,12 @@ function Home() {
       <S.Content>
         <S.CircularGlassLeft />
         <S.ContainerLinks>
-          <Switch
+          {/* <Switch
             id="test-switch"
             toggled={isToggled}
             onChange={() => setIsToggled(switchTheme)}
-          />
-          <S.ContainerAvatar>
+          /> */}
+          <S.ContainerAvatar onClick={() => setIsToggled(switchTheme)}>
             <S.Avatar src={profilePicture} />
           </S.ContainerAvatar>
 
@@ -38,33 +34,39 @@ function Home() {
           <S.Divider />
 
           <S.ContainerSocialMedia>
+            <S.Button href="https://www.youtube.com/channel/UCYUeJiqZCXcABWukG9RvQtw">
+              <S.ContainerButton>
+                <FaYoutube size={32} style={{ marginRight: '0.8rem' }} color="#FFF" />
+                <S.TitleSocialMedia>Youtube</S.TitleSocialMedia>
+              </S.ContainerButton>
+            </S.Button>
             <S.Button href="https://desenvolvedordeaplicativos.ga">
               <S.ContainerButton>
-                <S.Icon src={GlobeIcon} />
+                <FaGlobe size={32} style={{ marginRight: '0.8rem' }} color="#FFF" />
                 <S.TitleSocialMedia>Site</S.TitleSocialMedia>
               </S.ContainerButton>
             </S.Button>
             <S.Button href="https://www.linkedin.com/in/filipeleonelbatista/">
               <S.ContainerButton>
-                <S.Icon src={linkedInIcon} />
+                <FaLinkedinIn size={32} style={{ marginRight: ' 0.8rem' }} color="#FFF" />
                 <S.TitleSocialMedia>LinkedIn</S.TitleSocialMedia>
               </S.ContainerButton>
             </S.Button>
             <S.Button href="https://github.com/filipeleonelbatista">
               <S.ContainerButton>
-                <S.Icon src={githubIcon} />
+                <FaGithub size={32} style={{ marginRight: ' 0.8rem' }} color="#FFF" />
                 <S.TitleSocialMedia>GitHub</S.TitleSocialMedia>
               </S.ContainerButton>
             </S.Button>
             <S.Button href="mailto:filipe.x2016@gmail.com?subject=Olá">
               <S.ContainerButton>
-                <S.Icon src={gmailIcon} />
+                <FaEnvelope size={32} style={{ marginRight: ' 0.8rem' }} color="#FFF" />
                 <S.TitleSocialMedia>E-mail</S.TitleSocialMedia>
               </S.ContainerButton>
             </S.Button>
             <S.Button href="https://instagram.com/filipeleonelbatista/">
               <S.ContainerButton>
-                <S.Icon src={instaIcon} />
+                <FaInstagram size={32} style={{ marginRight: '0.8rem' }} color="#FFF" />
                 <S.TitleSocialMedia>Instagram</S.TitleSocialMedia>
               </S.ContainerButton>
             </S.Button>

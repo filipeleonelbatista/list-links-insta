@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 
 import ThemeContext from "../../context/Theme";
-import Switch from "../../Components/ToogleButton";
+// import Switch from "../../Components/ToogleButton";
 
 import * as S from "./styles";
 
@@ -10,7 +10,7 @@ import { FaInstagram, FaGithub, FaEnvelope, FaGlobe, FaYoutube, FaLinkedinIn } f
 
 function Home() {
   const { switchTheme } = useContext(ThemeContext);
-  const [isToggled, setIsToggled] = useState(false);
+  // const [isToggled, setIsToggled] = useState(false);
 
   return (
     <S.Container>

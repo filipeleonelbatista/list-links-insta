@@ -1,26 +1,26 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { FaEnvelope, FaGithub, FaGlobe, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import profilePicture from "../../assets/pic.png";
+import Switch from "../../Components/ToogleButton";
 import ThemeContext from "../../context/Theme";
-// import Switch from "../../Components/ToogleButton";
 import * as S from "./styles";
 
 
 
 function Home() {
   const { switchTheme } = useContext(ThemeContext);
-  // const [isToggled, setIsToggled] = useState(false);
+  const [isToggled, setIsToggled] = useState(false);
 
   return (
     <S.Container>
       <S.Content>
         <S.CircularGlassLeft />
         <S.ContainerLinks>
-          {/* <Switch
+          <Switch
             id="test-switch"
             toggled={isToggled}
             onChange={() => setIsToggled(switchTheme)}
-          /> */}
+          />
           <S.ContainerAvatar onClick={() => setIsToggled(switchTheme)}>
             <S.Avatar src={profilePicture} />
           </S.ContainerAvatar>

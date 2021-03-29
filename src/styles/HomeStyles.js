@@ -7,6 +7,13 @@ export const Container = styled.div`
   height: 100vh;
   background-color:${({ theme }) => theme.background};
   transition: 0.75s ease-in-out;
+
+  @media(max-width: 425px){
+    
+  padding-top: 4.4rem;
+  }
+
+  
 `;
 
 export const Content = styled.div`
@@ -25,7 +32,7 @@ export const ContainerLinks = styled.div`
   position: relative;
   transition: 0.75s ease-in-out;
 
-  @media(max-width: 400px){
+  @media(max-width: 425px){
     width: 320px;
   }
 `;
@@ -50,7 +57,7 @@ export const CircularGlassLeft = styled.div`
   top: -40px;
   left: -40px;
 
-  @media(max-width: 700px){
+  @media(max-width: 320px){
     display: none;
   }
 `;

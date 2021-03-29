@@ -30,37 +30,37 @@ export default function Home() {
           <S.Divider />
 
           <S.ContainerSocialMedia>
-            <S.Button href="https://www.youtube.com/channel/UCYUeJiqZCXcABWukG9RvQtw">
+            <S.Button id="youtube" href="https://www.youtube.com/channel/UCYUeJiqZCXcABWukG9RvQtw">
               <S.ContainerButton>
                 <FaYoutube size={32} style={{ marginRight: '0.8rem' }} color="#FFF" />
                 <S.TitleSocialMedia>Youtube</S.TitleSocialMedia>
               </S.ContainerButton>
             </S.Button>
-            <S.Button href="https://desenvolvedordeaplicativos.ga">
+            <S.Button id="site" href="https://desenvolvedordeaplicativos.ga">
               <S.ContainerButton>
                 <FaGlobe size={32} style={{ marginRight: '0.8rem' }} color="#FFF" />
                 <S.TitleSocialMedia>Site</S.TitleSocialMedia>
               </S.ContainerButton>
             </S.Button>
-            <S.Button href="https://www.linkedin.com/in/filipeleonelbatista/">
+            <S.Button id="linkedin" href="https://www.linkedin.com/in/filipeleonelbatista/">
               <S.ContainerButton>
                 <FaLinkedinIn size={32} style={{ marginRight: ' 0.8rem' }} color="#FFF" />
                 <S.TitleSocialMedia>LinkedIn</S.TitleSocialMedia>
               </S.ContainerButton>
             </S.Button>
-            <S.Button href="https://github.com/filipeleonelbatista">
+            <S.Button id="github" href="https://github.com/filipeleonelbatista">
               <S.ContainerButton>
                 <FaGithub size={32} style={{ marginRight: ' 0.8rem' }} color="#FFF" />
                 <S.TitleSocialMedia>GitHub</S.TitleSocialMedia>
               </S.ContainerButton>
             </S.Button>
-            <S.Button href="mailto:filipe.x2016@gmail.com?subject=Olá">
+            <S.Button id="email" href="mailto:filipe.x2016@gmail.com?subject=Olá">
               <S.ContainerButton>
                 <FaEnvelope size={32} style={{ marginRight: ' 0.8rem' }} color="#FFF" />
                 <S.TitleSocialMedia>E-mail</S.TitleSocialMedia>
               </S.ContainerButton>
             </S.Button>
-            <S.Button href="https://instagram.com/filipeleonelbatista/">
+            <S.Button id="instagram" href="https://instagram.com/filipeleonelbatista/">
               <S.ContainerButton>
                 <FaInstagram size={32} style={{ marginRight: '0.8rem' }} color="#FFF" />
                 <S.TitleSocialMedia>Instagram</S.TitleSocialMedia>

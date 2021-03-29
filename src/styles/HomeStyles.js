@@ -4,13 +4,14 @@ export const Container = styled.div`
   display: flex; 
   justify-content: center;
   padding-top: 4.4rem;
+  padding-bottom: 4.4rem;
   height: 100vh;
   background-color:${({ theme }) => theme.background};
   transition: 0.75s ease-in-out;
 
-  @media(max-width: 425px){
-    
-  padding-top: 4.4rem;
+  @media(max-width: 425px){    
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
   }
 
   
